@@ -17,7 +17,7 @@ public class MappingController {
 
     @RequestMapping(value = "/hello-basic", method = RequestMethod.GET)
     public String helloBasic(){
-        log.info("hellobasic");
+        log.info("helloBasic");
         return "ok";
 
     }
